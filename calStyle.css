@@ -1,0 +1,117 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 590px;
+    background-color: gray;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 0 rgb(104, 104, 104);
+    border: solid rgb(146, 146, 146);
+    padding-bottom: 20px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    min-width: 346px;
+    min-height: 140px;
+    background-color: rgb(230, 230, 230);
+    margin: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: solid rgb(102, 102, 102);
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: right;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.numDisplay {
+    display: flex;
+    font-size: 28px;
+    min-height: 32px;
+    max-width: 346px;
+}
+
+.currentNumDisplay {
+    max-width: 346px;
+    font-size: 42px;
+    margin-top: 58px;
+    min-height: 46px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.numPad{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn {
+    width: 80px;
+    height: 68px;
+    background-color: lightgray;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 darkgray;
+    border: 3px solid darkgray;
+    font-size: 24px;
+}
+
+.clrBtn:active,
+.delBtn:active,
+.btn:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.clearAndDel {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.clrBtn {
+    width: 172px;
+    height: 68px;
+    background-color: lightcoral;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 rgb(185, 82, 82);
+    border: 3px solid rgb(185, 82, 82);
+    font-size: 18px;
+}
+
+.delBtn {
+    width: 172px;
+    height: 68px;
+    background-color: #6495ED;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(84, 84, 199);
+    border: 3px solid rgb(84, 84, 199);
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .calculator {
+        max-width: 300px;
+    }
+
+    .numDisplay {
+        max-width: 250px;
+    }
+
+    .currentNumDisplay {
+        max-width: 250px
+    };
+}
