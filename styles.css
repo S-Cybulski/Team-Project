@@ -6,9 +6,17 @@ body {
     padding: 0;
 }
 
+.header {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+    position: relative;
+    z-index: 250;
+  }
+
 h1 {
     color: #e5e7eb;
-    font-size: 1.5em;
+    font-size: 48px;
     margin-left: 50px;
 }
 
@@ -23,10 +31,13 @@ p {
     line-height: 30px;
     font-size: 18px;
     color: gray;
+    margin-top: 20px;
 }
 
 img {
     align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 aside {
@@ -40,9 +51,9 @@ aside {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     width: 100%;
-
+    top: 0;
 }
 
 .NavBarContainer {
@@ -80,7 +91,7 @@ aside {
     max-width: 650px;
     justify-content: center;
     align-content: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .ContentContainer {
@@ -155,6 +166,13 @@ aside {
     color: gray;
     font-size: 14px;
     margin-left: 10px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
 }
 
 /* Dropdown Button */

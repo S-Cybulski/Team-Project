@@ -7,17 +7,19 @@
     <script src="calcScript.js" defer></script>
     <script src="../script.js" defer></script>
     <link rel="stylesheet" type="text/css" href="calStyle.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
 
 <body>
+    <header class="header">
+        <h1>Principals of Computer Science</h1>
+    </header>
     <div class="NavBar">
-        <h1>Intro To Computer Science</h1>
         <div class="NavBarContainer">
             <div class="NavBarLinks">
                 <a href="" class="PageLink">Artificial Intelligence</a>
@@ -62,7 +64,8 @@
         <div class="Content">
             <span class="anchor" id="Intro"></span>
             <h2>Web Development</h2>
-            <div class="Intro ContentSection">
+            <img src="Images/main.png" width="650">
+            <div class="ContentSection">
                 <p>Web development is the process of creating websites or web applications that are accessible via the internet. It encompasses a variety of tasks, including web design, front-end development, back-end development, and server management. Web developers use a combination of programming languages, frameworks, and tools to build dynamic and interactive websites that can serve various purposes, from providing information to facilitating e-commerce transactions or social interactions.</p>
                 <p>Front-end development involves designing and implementing the user interface and user experience of a website using HTML, CSS, and JavaScript. This aspect focuses on how the website looks and behaves in the user's browser.</p>
                 <p>Back-end development involves building the server-side logic and databases that power the website, allowing it to handle user requests, process data, and generate dynamic content. Common back-end technologies include programming languages like Python, PHP, Ruby, and frameworks like Django, Flask, Laravel, and Ruby on Rails.</p>
@@ -71,28 +74,28 @@
             </div>
             
             <span class="anchor" id="HTML"></span>
-            <div class="HTML ContentSection" id="HTML">
+            <div class="ContentSection" id="HTML">
                 <h3>HTML</h3>
                 <img src="images/HTMLExample.jpeg" width="650">
                 <p>HTML, or Hypertext Markup Language, serves as the backbone of the World Wide Web, providing the structure and layout for web pages. It is a markup language that uses tags to define the different elements within a document, such as headings, paragraphs, images, links, and more. HTML documents are built using a hierarchical structure, with elements nested within one another to create a logical and organized layout. Through HTML, web developers can create content-rich pages that are easily accessible and navigable by users across various devices and platforms. HTML forms the foundation upon which websites are built, laying the groundwork for styling and interactivity through CSS (Cascading Style Sheets) and functionality through JavaScript. In essence, HTML is the language that gives structure and meaning to the vast expanse of information and media on the internet, making it accessible and understandable to users worldwide.</p>
             </div>
             
             <span class="anchor" id="CSS"></span>
-            <div class="CSS ContentSection">
+            <div class="ContentSection">
                 <h3>CSS</h3>
                 <img src="images/CSSExample.jpeg" width="650">
                 <p>Cascading Style Sheets, commonly known as CSS, is the design language of the web, allowing developers to enhance the presentation and visual appeal of HTML documents. With CSS, developers can control the layout, colors, fonts, and overall style of web pages, creating visually stunning and responsive designs. CSS works by applying styling rules to HTML elements, defining how they should appear and behave on the screen. This separation of content (HTML) and presentation (CSS) enables developers to efficiently manage and update the appearance of entire websites or applications without altering the underlying structure. CSS also supports advanced features like animations, transitions, and responsive design, ensuring that web content looks great and adapts seamlessly across different screen sizes and devices. In essence, CSS empowers developers to transform plain HTML documents into engaging, visually appealing experiences that captivate and delight users.</p>
             </div>
             
             <span class="anchor" id="JS"></span>
-            <div class="JavaScript ContentSection">
+            <div class="ContentSection">
                 <h3>JavaScript</h3>
                 <img src="images/JSExample.jpeg" width="650">
                 <p>JavaScript, often abbreviated as JS, is the dynamic programming language of the web, bringing interactivity and functionality to HTML-based content. As a client-side scripting language, JavaScript runs directly in the user's web browser, enabling developers to create dynamic web pages that respond to user actions in real-time without the need to reload the entire page. JavaScript is versatile, allowing developers to manipulate HTML elements, handle user input, perform calculations, and interact with web APIs to fetch or send data asynchronously. With its extensive ecosystem of libraries and frameworks like React, Angular, and Vue.js, JavaScript has evolved into a powerful tool for building complex web applications with rich user interfaces. Additionally, JavaScript can also be used on the server-side, thanks to platforms like Node.js, enabling developers to build full-stack applications using a single language. In essence, JavaScript is the driving force behind the modern web, empowering developers to create interactive, responsive, and engaging experiences that push the boundaries of what's possible online.</p>
             </div>
 
             <span class="anchor" id="CalcExample"></span>
-            <div class="Example ContentSection">
+            <div class="ContentSection">
                 <h3 class="ExampleTitle">Calculator Example</h3>
                 <p>This calculator is created using HTML, CSS and JavaScript. The source code can be found <a class="SourceCodeLink"href="https://github.com/S-Cybulski/calculator">here.</a></p>
                 <div class="calculator">
@@ -125,7 +128,7 @@
             </div>
 
             <span class="anchor" id="Stacks"></span>
-            <div class="Stacks ContentSection">
+            <div class="ContentSection">
                 <h3>Stacks</h3>
                 <p>A stack, in the context of web development, refers to a combination of technologies and tools used to build a particular type of application. One popular stack is the MERN stack, which stands for MongoDB, Express.js, React, and Node.js. MongoDB is a NoSQL database that stores data in a flexible, JSON-like format, making it well-suited for handling large volumes of unstructured data. Express.js is a web application framework for Node.js that simplifies the process of building robust and scalable server-side applications. React is a JavaScript library for building user interfaces, known for its component-based architecture and efficient rendering performance. Node.js is a runtime environment that allows developers to run JavaScript on the server-side, enabling full-stack development using a single programming language. Together, the MERN stack provides developers with a comprehensive set of tools for building modern, full-stack web applications that are flexible, scalable, and efficient.</p>
                 <img src="images/MernStack.png" width="650">
