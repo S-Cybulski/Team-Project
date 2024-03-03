@@ -212,6 +212,10 @@ aside {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
 
+    header {
+        display: none;
+    }
+
     img {
         max-width: 300px;
         padding-right: 20px;
@@ -269,6 +273,10 @@ aside {
     .Intro {
         margin-left: -20px;
         margin-right: -20px;
+    }
+
+    .ContentContainer {
+        margin-top: 50px;
     }
 
 }
