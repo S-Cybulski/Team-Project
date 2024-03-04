@@ -323,12 +323,19 @@ aside {
 }
 
 .TopicTile {
+    display: flex;
     background-color: white;
     width: 200px;
     height: 200px;
     border: solid #3882f6;
     border-radius: 10px;
     transition: transform 0.3s;
+}
+
+.TopicTile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
 }
 
 .TopicTile:hover {
