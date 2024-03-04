@@ -328,6 +328,12 @@ aside {
     height: 200px;
     border: solid #3882f6;
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.TopicTile:hover {
+    transform: scale(1.1); /* Scale up to 110% when hovered */
+    z-index: 999; /* Ensure it appears on top of other content */
 }
 
 .TopicContainer p {
@@ -335,4 +341,5 @@ aside {
     text-align: center;
     font-size: 16px;
     line-height: 20px;
+    height: 50px;
 }
