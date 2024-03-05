@@ -286,6 +286,7 @@ aside {
 
 .IntroTile {
     display: flex;
+    flex-direction: row;
     background-color: white;
     padding-top: 20px;
     gap: 20px;
@@ -296,21 +297,23 @@ aside {
 .IntroTile h1 {
     font-size: 36px;
 }
+.IntroTile p {
+    font-size: 36px;
+    margin-bottom: -20px;
+}
 
 .IntroTileLeft,
 .IntroTileRight {
-    max-width: 500px;
-}
-
-.IntroTileLeft {
-    padding: 20px;
+    max-width: 650px;
 }
 
 .IntroTileLeft p {
     padding: 20px;
+    padding-top: 0px;
     text-align: justify;
     color: gray;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .SectionTile {
@@ -359,4 +362,17 @@ aside {
     font-size: 16px;
     line-height: 20px;
     height: 50px;
+}
+
+.IntroTileLeft p{
+    color: gray;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 650px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.IntroTileLeft li{
+    color: gray;
+    line-height: 30px;
 }
