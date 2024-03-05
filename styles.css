@@ -286,7 +286,7 @@ aside {
 
 .IntroTile {
     display: flex;
-    background-color: #1F2937;
+    background-color: white;
     padding-top: 20px;
     gap: 20px;
     align-items: center;
@@ -309,7 +309,7 @@ aside {
 .IntroTileLeft p {
     padding: 20px;
     text-align: justify;
-    color: white;
+    color: gray;
     font-size: 16px;
 }
 
@@ -322,9 +322,18 @@ aside {
     margin: 50px;
 }
 
+.SectionTileContainer {
+    background-color: #e5e7eb;
+    text-align: center;
+}
+.TopicHeading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+}
 .TopicTile {
     display: flex;
-    background-color: white;
     width: 200px;
     height: 200px;
     border: solid #3882f6;
