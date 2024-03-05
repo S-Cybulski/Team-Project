@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    box-sizing: border-box;
 }
 
 .header {
@@ -49,7 +55,6 @@ aside {
 
 .NavBar {
     display: flex;
-    background-color: #1F2937;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -134,6 +139,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(#134b96, #1F2937);
 }
 
 .anchor {
@@ -388,4 +394,19 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Content {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+body {
+    background: rgb(243, 243, 243);
+}
+
+header {
+    background-image: linear-gradient(#1F2937,#134b96);
 }
