@@ -417,3 +417,7 @@ header {
     font-weight: 400;
     font-style: normal;
 }
+
+.Title a {
+    font-size: 48px;
+}
