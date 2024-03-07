@@ -190,6 +190,7 @@ aside {
     border: none;
     cursor: pointer;
     background-color: #1F2937;
+    background-image: linear-gradient(#1F2937,#134b96);
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -215,78 +216,6 @@ aside {
     display: flex;
     flex-direction: column;
     right: 0px;
-}
-
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 600px) {
-
-    header {
-        display: none;
-    }
-
-    img {
-        max-width: 300px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    h1 {
-        font-size: 14px;
-        margin-left: 10px;
-    }
-
-    h3 {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    p {
-        font-size: 0.8rem;
-        line-height: 1.2rem;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .NavBarContainer {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .PageLink {
-        font-size: 10px;
-    }
-
-    .Content {
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: 300px;
-    }
-
-    .AnchorLinks {
-        display: none; /* hide on mobile */
-    }
-
-    .NavBar {
-        display: none;
-    }
-
-    .MobileNavBar {
-        display: flex;
-        background-color: #1F2937;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-    }
-
-    .Intro {
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-
-    .ContentContainer {
-        margin-top: 50px;
-    }
-
 }
 
 /* Landing page css */
@@ -421,3 +350,100 @@ header {
 .Title a {
     font-size: 48px;
 }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: none;
+    }
+
+    img {
+        max-width: 300px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    h1 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    h3 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .NavBarContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .PageLink {
+        font-size: 10px;
+    }
+
+    .Content {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 300px;
+    }
+
+    .AnchorLinks {
+        display: none; /* hide on mobile */
+    }
+
+    .NavBar {
+        display: none;
+    }
+
+    .MobileNavBar {
+        display: flex;
+        background-color: #1F2937;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        background-image: linear-gradient(#1F2937,#134b96);
+    }
+
+    .Intro {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .ContentContainer {
+        margin-top: 50px;
+    }
+
+    .IntroTile {
+        flex-direction: column;
+    }
+
+    .TopicTile {
+        justify-content: center;
+    }
+
+    .SectionTileContainer {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TopicHeading {
+        font-size: 24px;
+    }
+
+    .TopicContainer {
+        justify-content: center;
+        align-items: center;
+        max-width: 200px;
+    }
+
+}
+
