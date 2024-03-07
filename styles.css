@@ -25,6 +25,7 @@ h1 {
     color: #e5e7eb;
     font-size: 48px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 a {
@@ -409,4 +410,10 @@ body {
 
 header {
     background-image: linear-gradient(#1F2937,#134b96);
+}
+
+.Title {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
