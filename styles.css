@@ -445,5 +445,9 @@ header {
         max-width: 200px;
     }
 
+    .Title a{
+        font-size: 18px;
+    }
+
 }
 
